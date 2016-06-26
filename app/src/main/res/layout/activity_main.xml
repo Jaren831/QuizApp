@@ -29,6 +29,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <RadioButton style="@style/radioButtonStyle"
+                
                 android:text="@string/question1A"/>
             <RadioButton style="@style/radioButtonStyle"
                 android:text="@string/question1B"/>
@@ -39,7 +40,7 @@
         </RadioGroup>
         <TextView style="@style/questionHeaderText"
             android:id="@+id/question2Header"
-            android:text="@string/question1Header"/>
+            android:text="@string/question2Header"/>
         <TextView style="@style/questionText"
             android:id="@+id/question2"
             android:text="@string/question2"/>
