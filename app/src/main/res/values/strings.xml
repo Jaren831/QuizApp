@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="quizTitle">US History Quiz</string>
+
+    <!-- Question 1 -->
+    <string name="question1Header">Question 1</string>
+    <string name="question1">Which of the following was acknowledged as a clear advantage held by the Union over the
+Confederacy during the U.S Civil War?</string>
+    <string name="question1A">Control over the Mississippi River from end to end from the outset of the war</string>
+    <string name="question1B">A sense of purpose in the conflict that unified all Northerners</string>
+    <string name="question1C">An industrial capacity that allowed the Union to produce most of what it needed for the war</string>
+    <string name="question1D">A more highly trained and experienced military leadership**</string>
+
+    <!-- Question 2 -->
+    <string name="question2Header">Question 2</string>
+    <string name="question2">Anne Hutchinson and her followers were banished from the Massachusetts Bay Colony because</string>
+    <string name="question2A">Hutchinson had been convicted of adultery</string>
+    <string name="question2B">they attempted to overthrow the colony’s elected government</string>
+    <string name="question2C">their advocacy of the banning of alcohol put them at odds with the rest of the colonists</string>
+    <string name="question2D">Hutchinson’s religious views led to her excommunication from the Puritan church**</string>
+
+    <!-- Question 3 -->
+    <string name="question3Header">Question 3</string>
+    <string name="question3">The Great Famine of Ireland in the 1840s affected the United States in which of the following ways?</string>
+    <string name="question3A">It led to a massive wave of Irish immigrants to the United States.**</string>
+    <string name="question3B">It forced Americans to abandon imports of the potato and look for other sources of food.</string>
+    <string name="question3C">It led to a decline in the influence of the Roman Catholic Church.</string>
+    <string name="question3D">Intermarriage between Irish immigrants and native-born US citizens declined.</string>
+
+    <!-- Question 4 -->
+    <string name="question4Header">Question 4</string>
+    <string name="question4">Which of these are States?</string>
+    <string name="question4A">Uranus</string>
+    <string name="question4B">Texas**</string>
+    <string name="question4C">Apple Juice</string>
+    <string name="question4D">Georgia**</string>
+
+    <!-- Question 5 -->
+    <string name="question5Header">Question 5</string>
+    <string name="question5">Who are you voting for and why is it Donald Trump?</string>
+    <string name="question5Hint">Your answer here</string>
+
+    <string name="submitButton">Submit</string>
+</resources>
