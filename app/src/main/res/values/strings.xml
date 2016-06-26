@@ -41,4 +41,7 @@ Confederacy during the U.S Civil War?</string>
     <string name="question5Hint">Your answer here</string>
 
     <string name="submitButton">Submit</string>
+
+    <!-- Score Activity Text -->
+    <string name="result">Your Results:</string>
 </resources>

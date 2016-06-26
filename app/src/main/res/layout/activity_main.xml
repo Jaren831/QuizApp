@@ -29,13 +29,16 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <RadioButton style="@style/radioButtonStyle"
-                
+                android:id="@+id/question1A"
                 android:text="@string/question1A"/>
             <RadioButton style="@style/radioButtonStyle"
+                android:id="@+id/question1B"
                 android:text="@string/question1B"/>
             <RadioButton style="@style/radioButtonStyle"
+                android:id="@+id/question1C"
                 android:text="@string/question1C"/>
             <RadioButton style="@style/radioButtonStyle"
+                android:id="@+id/question1D"
                 android:text="@string/question1D"/>
         </RadioGroup>
         <TextView style="@style/questionHeaderText"
@@ -49,12 +52,16 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <RadioButton style="@style/radioButtonStyle"
+                android:id="@+id/question2A"
                 android:text="@string/question2A"/>
             <RadioButton style="@style/radioButtonStyle"
+                android:id="@+id/question2B"
                 android:text="@string/question2B"/>
             <RadioButton style="@style/radioButtonStyle"
+                android:id="@+id/question2C"
                 android:text="@string/question2C"/>
             <RadioButton style="@style/radioButtonStyle"
+                android:id="@+id/question2D"
                 android:text="@string/question2D"/>
         </RadioGroup>
         <TextView style="@style/questionHeaderText"
@@ -68,12 +75,16 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <RadioButton style="@style/radioButtonStyle"
+                android:id="@+id/question3A"
                 android:text="@string/question3A"/>
             <RadioButton style="@style/radioButtonStyle"
+                android:id="@+id/question3B"
                 android:text="@string/question3B"/>
             <RadioButton style="@style/radioButtonStyle"
+                android:id="@+id/question3C"
                 android:text="@string/question3C"/>
             <RadioButton style="@style/radioButtonStyle"
+                android:id="@+id/question3D"
                 android:text="@string/question3D"/>
         </RadioGroup>
         <TextView style="@style/questionHeaderText"
@@ -83,12 +94,16 @@
             android:id="@+id/question4"
             android:text="@string/question4"/>
         <CheckBox style="@style/checkBoxStyle"
+            android:id="@+id/question4A"
             android:text="@string/question4A"/>
         <CheckBox style="@style/checkBoxStyle"
+            android:id="@+id/question4B"
             android:text="@string/question4B"/>
         <CheckBox style="@style/checkBoxStyle"
+            android:id="@+id/question4C"
             android:text="@string/question4C"/>
         <CheckBox style="@style/checkBoxStyle"
+            android:id="@+id/question4D"
             android:text="@string/question4D"/>
         <TextView style="@style/questionHeaderText"
             android:id="@+id/question5Header"
@@ -97,6 +112,7 @@
             android:id="@+id/question5"
             android:text="@string/question5"/>
         <EditText style="@style/answerText"
+            android:id="@+id/question5answer"
             android:hint="@string/question5Hint"
             android:inputType="text"/>
 
