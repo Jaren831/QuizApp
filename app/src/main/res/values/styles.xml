@@ -3,10 +3,12 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">#607D8B</item>
+        <item name="colorPrimaryDark">#455A64</item>
+        <item name="colorAccent">#03A9F4</item>
     </style>
+
+    <!-- Style for title of quiz -->
     <style name="quizHeaderText">
         <item name="android:textSize">36sp</item>
         <item name="android:textAllCaps">true</item>
@@ -15,12 +17,16 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>
     </style>
+
+    <!-- Style for question header -->
     <style name="questionHeaderText">
         <item name="android:textSize">16sp</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textAllCaps">true</item>
     </style>
+
+    <!-- Style for text of question -->
     <style name="questionText">
         <item name="android:textSize">16sp</item>
         <item name="android:layout_marginBottom">4dp</item>
@@ -28,24 +34,32 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
+    <!-- Style for radio buttons -->
     <style name="radioButtonStyle">
         <item name="android:layout_marginBottom">4dp</item>
         <item name="android:textSize">12sp</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
     </style>
+
+    <!-- Style for checkboxes -->
     <style name="checkBoxStyle">
         <item name="android:layout_marginBottom">4dp</item>
         <item name="android:textSize">12sp</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
     </style>
+
+    <!-- Style for answer choices -->
     <style name="answerText">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:textSize">12sp</item>
     </style>
-    <style name="submitButton">
+
+    <!-- Style for buttons -->
+    <style name="buttons">
         <item name="android:textSize">16sp</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:layout_gravity">center_horizontal</item>

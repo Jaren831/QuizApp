@@ -116,7 +116,7 @@
             android:hint="@string/question5Hint"
             android:inputType="text"/>
 
-        <Button style="@style/submitButton"
+        <Button style="@style/buttons"
             android:id="@+id/submitButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

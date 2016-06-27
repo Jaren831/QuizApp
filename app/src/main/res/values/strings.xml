@@ -38,10 +38,11 @@ Confederacy during the U.S Civil War?</string>
     <!-- Question 5 -->
     <string name="question5Header">Question 5</string>
     <string name="question5">Who are you voting for and why is it Donald Trump?</string>
-    <string name="question5Hint">Your answer here</string>
+    <string name="question5Hint">Anything you put is right</string>
 
     <string name="submitButton">Submit</string>
 
     <!-- Score Activity Text -->
     <string name="result">Your Results:</string>
+    <string name="tryAgain">Try Again</string>
 </resources>

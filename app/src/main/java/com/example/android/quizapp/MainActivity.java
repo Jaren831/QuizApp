@@ -50,19 +50,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent("com.example.android.quizapp.ScoreActivity");
         intent.putExtra("score", String.valueOf(score));
         startActivity(intent);
-
-//        displayScore(score);
-
-
     }
-//    private int displayScore(int score) {
-//        Intent intent = new Intent(this, ScoreActivity.class);
-//        startActivity(intent);
-//    }
 
-//    CheckBox chocolateCheck = (CheckBox) findViewById(R.id.chocolate);
-//    CheckBox whippedCheck = (CheckBox) findViewById(R.id.whipped);
-//    if (chocolateCheck.isChecked()) {
-//        price += chocolate;
-//    }
 }

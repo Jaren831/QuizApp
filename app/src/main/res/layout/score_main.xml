@@ -28,13 +28,13 @@
             android:layout_marginBottom="32dp"
             android:textSize="32sp"
             android:textColor="@android:color/black"/>
-        <Button
+        <Button style="@style/buttons"
             android:id="@+id/tryAgain"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Try Again"
-            android:onClick="tryAgain"/>
+            android:onClick="tryAgain"
+            android:text="@string/tryAgain"/>
 
     </LinearLayout>
 </ScrollView>
